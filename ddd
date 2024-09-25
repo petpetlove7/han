@@ -1,1 +1,1 @@
-<span style="color:yellow">노란 글씨입니다.</span>
+<span style="color:yellow; background:#800080"> 글자색 yellow, 바탕색 #800080 </span>
