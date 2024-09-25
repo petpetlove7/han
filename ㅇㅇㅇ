@@ -1,1 +1,11 @@
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+body {
+    background-color: #ffffff; /* Light mode */
+    color: #000000; /* Text color for light mode */
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000; /* Dark mode */
+        color: #ffffff; /* Text color for dark mode */
+    }
+}
