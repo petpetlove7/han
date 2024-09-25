@@ -1,5 +1,8 @@
-[Move Text](#index-text)
-
-#Index Text
-
-=> 'Index Text' 로 이동하기 위해 '#index-text' 
+스타일	구문	바로 가기 키	예시	출력
+Bold	** ** 또는 __ __	Command+B(Mac) 또는 Ctrl+B(Windows/Linux)	**This is bold text**	굵게 표시된 텍스트
+이탤릭체	* * 또는 _ _     	Command+I(Mac) 또는 Ctrl+I(Windows/Linux)	_This text is italicized_	기울임꼴로 표시된 텍스트
+취소선	~~ ~~	None	~~This was mistaken text~~	실수하여 취소된 텍스트
+굵게 및 중첩된 기울임꼴	** ** 및 _ _	None	**This text is _extremely_ important**	매우 중요한 텍스트
+모든 굵게 및 기울임꼴	*** ***	None	***All this text is important***	모든 텍스트가 중요
+아래 첨자	<sub> </sub>	None	This is a <sub>subscript</sub> text	아래 첨자 텍스트입니다.
+위 첨자	<sup> </sup>	None	This is a <sup>superscript</sup> text	위 첨자 텍스트입니다.
