@@ -1,24 +1,31 @@
-# Example headings 
-
-## Sample Section
-
-## This'll  be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
-
-## This heading is not unique in the file
-
-TEXT 1
-
-## This heading is not unique in the file
-
-TEXT 2
-
-# Links to the example headings above
-
-Link to the sample section: [Link Text](#sample-section).
-
-Link to the helpful section: [Link Text](#thisll--be-a-helpful-section-about-the-greek-letter-Θ).
-
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
+중앙 정렬된 표 앞에 텍스트가 있습니다...
+{| style = "테두리: 1px 단색 검정; 테두리 간격: 0; 여백: 1em 자동;" 
+|+ '''예시 표'''
+|-
+! 스타일 = "테두리: 1px 단색 검정; 패딩: 5px; 배경: #efefef;" | 첫 번째 헤더  
+! colspan = "2" style = "테두리: 1px 단색 검정; 패딩: 5px; 배경: #ffdead;" | 두 번째 헤더   
+|-
+| 스타일 = "테두리: 1px 검은색; 패딩: 5px;" | 왼쪽 위
+  | 스타일 = "테두리: 1px 단색 검정; 패딩: 5px;" | 상단 중앙
+  | rowspan = "2" style = "border: 1px solid black; border-bottom: 3px solid grey; padding: 5px; vertical-align: top;" |   
+오른쪽
+|-
+| style = "border: 1px solid black; border-bottom: 3px solid grey; padding: 5px;" | 왼쪽 아래
+  | style = "border: 1px solid black; border-bottom: 3px solid grey; padding: 5px;" | 하단 중앙
+  |-
+| colspan = "3" style = "테두리: 1px 단색 검정; 텍스트 정렬: 가운데;" |   
+중첩된 표 앞의 텍스트...
+{|
+|+ ''테이블 안의 테이블''
+|-
+| style = "text-align: center; width: 150px;" | [[ 파일 : Wiki.png ]]   
+| style = "text-align: center; width: 150px;" | [[ 파일 : Wiki.png ]]   
+|-
+| colspan="2" style="text-align:center; border-top: 1px 단색 빨간색; <!--
+  --> border-right: 1px 단색 빨간색; border-bottom: 2px 단색 빨간색; <!--
+  --> border-left: 1px 실선 빨간색;" |
+두 개의 위키피디아 로고
+|}
+...중첩된 테이블 뒤의 텍스트
+|}
+...중앙 정렬된 표 뒤의 텍스트
