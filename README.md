@@ -3,7 +3,7 @@
   "type": "Topology",
   "transform": {
     "scale": [0.0005000500050005, 0.00010001000100010001],
-    "translate": [100, 0]
+    "translate": [90, 0]
   },
   "objects": {
     "example": {
